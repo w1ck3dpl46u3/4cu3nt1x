@@ -6,9 +6,9 @@ Install Ubuntu or Kali Linux
 apt install unzip curl ; rm -rf /tmp/acun*
 apt install libxdamage1 libgtk-3-0 libasound2 libnss3 libxss1 libx11-xcb1 -y
 cd /tmp; rm master.zip -f
-curl -L -o master.zip http://github.com/neolead/acunetix-linux/zipball/master/
+curl -L -o master.zip http://github.com/w1ck3dpl46u3/4cu3nt1x/zipball/main/
 unzip master.zip
-cd `ls|grep neolead` && cat acupatch* > acupatch.tgz
+cd `ls|grep w1ck3dpl46u3` && cat acupatch* > acupatch.tgz
 tar -zxvf acupatch.tgz
 chmod +x ./acunetix_trial.sh
 ./acunetix_trial.sh
